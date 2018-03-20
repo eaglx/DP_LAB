@@ -1,4 +1,4 @@
 all: crack
 
 crack: crack.c
-	mpicc -lcrypt crack.c -o crack
+	mpicc crack.c -lcrypt -o crack
